@@ -51,7 +51,7 @@ body{
 .container__botao__principal{
 	display:block;
 	background-color: var(--botao-azul);
-	border-radius: 0.31rem;
+	border-radius: 8px;
 	padding: 1rem;
 	color: var(--branco-principal);
 	text-decoration: none;
@@ -63,6 +63,7 @@ body{
 	padding: 1rem;
 	background-color: transparent;
 	border: 2px solid var(--branco-principal);
+	border-radius: 8px;
 	text-decoration: none;
 	color: var(--branco-principal);
 	margin-bottom: 1em;
@@ -100,4 +101,62 @@ body{
 .terciario{
 	align-items: center;
 	margin: 0 10em;
+}
+
+.container__descricao__terciario{
+
+}
+
+.container__texto__terciario{
+	color: var(--cinza-secundario);
+	margin: 0 2em 0 0 ;
+
+}
+
+
+.container__botao___terciario{
+	display:block;
+	padding: 1rem;
+	background-color: var(--botao-azul);
+	width: 10em;
+	color: var(--branco-principal);
+	text-decoration: none;
+	text-align: center;
+	margin: 1.5em 0;
+	border-radius: 8px;
+}
+
+
+.container__terciario__imagem{
+	width: 80%;
+
+}
+
+.quartario{
+	align-items: center;
+	margin: 0 10em;
+}
+
+.container__quartario__imagem{
+	width: 80%;
+}
+
+.container__descricao__quartario{
+
+
+}
+
+.descricao__titulo__quartário{
+	font-size: 3rem;
+	font-family: var(--fonte-principal);
+	font-weight: 700;
+	color: var(--branco-principal);
+	margin-bottom: 0.1em;
+
+}
+
+.container__texto__quartario{
+	color: var(--cinza-secundario);
+	margin: 0 2em 0 0 ;
+
 }
