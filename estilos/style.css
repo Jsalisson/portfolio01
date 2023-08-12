@@ -21,33 +21,34 @@ body{
 	font-weight: 400;
 } 
 
-.container {
+.principal {
 	background-image: url("C:/Users/alisson/Documents/GitHub/portfolio01/img/Background.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	align-items: center;
 	text-align: center;
+}
+.container {
 	height: 100vh;
 	display: grid;
 	grid-template-columns: 50% 50%;
 }
-	
 
-.container__caixa{
+.container__caixa_principal{
 	margin: 0 6em;
 }
 
-.container__titulo{
-	font-size: 2rem;
+.container__titulo__principal{
+	font-size: 1.75rem;
 	font-weight: 700;
 
 }
 
-.container__imagem{
+.container__imagem__principal{
 	margin: 1em 0 2em 0;
 }
 
-.container__botao{
+.container__botao__principal{
 	display:block;
 	background-color: var(--botao-azul);
 	border-radius: 0.31rem;
@@ -57,7 +58,7 @@ body{
 	margin-bottom: 1em;
 }
 
-.container__botao_secundario{
+.container__botao___principal1{
 	display:block;
 	padding: 1rem;
 	background-color: transparent;
@@ -67,7 +68,36 @@ body{
 	margin-bottom: 1em;
 }
 
-.container__aviso{
+.container__aviso__principal{
 	font-size: 0.75rem;
 	color: var(--cinza-secundario);
+}
+.secundario{
+	align-items: center;
+	margin: 0 10em;
+}
+
+.container__secundario__imagem{
+	width: 80%;
+}
+
+.container__descricao__secundario{
+
+}
+
+.descricao__titulo__secundario{
+	font-size: 3rem;
+	font-family: var(--fonte-principal);
+	font-weight: 700;
+	color: var(--branco-principal);
+	margin-bottom: 0.1em;
+}
+
+.descricao__texto__secundario{
+	color: var(--cinza-secundario);
+}
+
+.terciario{
+	align-items: center;
+	margin: 0 10em;
 }
